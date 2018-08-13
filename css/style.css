@@ -1,12 +1,166 @@
 html,
 body {
     min-width: 1122px;
-    min-height: 1750px;
+/*    min-height: 1750px;   */ /*i don't know for what this value */
     margin: 0;
     padding: 0;
 }
 
-body {
-    background: #000000 url(../barbershop/barbershop-index-crop.jpg) no-repeat 50% 3px;
-    background-size: 1122px auto;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-header {
+    margin-bottom: 60px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-navigation {
+    width: 780px;
+    height: 70px;
+    margin-right: 20px;
+    float: left;
+}
+
+.user-block {
+    width: 140px;
+    height: 70px;
+    float: right;
+}
+
+.index-logo {
+    width: 368px;
+    height: 204px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.features {
+    margin-bottom: 80px;
+}
+
+.features-item {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+}
+
+.features-item:last-child {
+    margin-right: 0;
+}
+
+.index-content {
+    padding: 50px 80px;
+}
+
+.index-content-left {
+    float: left;
+    width: 380px;
+
+    min-height: 330px;
+}
+
+.index-content-right {
+    float: right;
+    width: 300px;
+
+    min-height: 330px;
+}
+
+.main-footer {
+    margin-top: 65px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.footer-contacts {
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+}
+
+.footer-social {
+    float: left;
+    width: 180px;
+}
+
+.footer-copyrights {
+    float: right;
+    width: 180px;
+}
+
+
+.breadcrumbs {
+    margin-bottom: 50px;
+}
+
+.item-content-left {
+    float: left;
+    width: 470px;
+}
+
+.gallery li {
+    float: left;
+    width: 160px;            /*must be by 166px - width of pictures, but dosn't fit*/
+}
+
+
+ul {                        /*added in order to fit pictures*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item-content-right {
+    float: right;
+    width: 400px;
+}
+
+figure {                    /*added in order for the main picture take own place*/
+    margin: 0;
+    padding: 0;
+    margin-left: -10px;
+}
+
+
+
+
+.promo-name {
+    display: block;
+    margin-bottom: 60px;
+}
+
+.main-content-left {
+    float: left;
+    width: 400px;
+}
+
+.main-content-right {
+    float: right;
+    width: 480px;
+}
+
+.sidebar {
+    float: left;
+    width: 220px;
+}
+
+.goods {
+    float: right;
+    width: 720px;
+}
+
+.goods-list li {
+    float: left;
+    width: 220px;
+    height: 312px;
+    background: #999999 url("") no-repeat 0 0;
+    
 }
