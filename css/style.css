@@ -2,14 +2,19 @@ html,
 body {
     min-width: 1122px;
 <<<<<<< HEAD
+<<<<<<< HEAD
     min-height: 1750px;
 =======
 /*    min-height: 1750px;   */ /*i don't know for what this value */
 >>>>>>> parent of b3da804... 18.09.2018
+=======
+    min-height: 1750px;
+>>>>>>> parent of 7626269... edit
     margin: 0;
     padding: 0;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 body {
     background: #000000 url(../barbershop/barbershop-index-crop.jpg) no-repeat 50% 3px;
@@ -175,3 +180,9 @@ figure {                    /*added in order for the main picture take own place
     
 }
 >>>>>>> parent of b3da804... 18.09.2018
+=======
+body {
+    background: #000000 url(../barbershop/barbershop-index-crop.jpg) no-repeat 50% 3px;
+    background-size: 1122px auto;
+}
+>>>>>>> parent of 7626269... edit
