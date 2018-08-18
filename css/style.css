@@ -1,17 +1,9 @@
 html,
 body {
-    min-width: 960px;
+    min-width: 1122px;
+/*    min-height: 1750px;   */ /*i don't know for what this value */
     margin: 0;
     padding: 0;
-    
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    font-family: "PT Sans Narrow", "Arial", sans-serif;
-    color: #ffffff;
-    text-transform: uppercase;
-    background: #000000 url(../img/bg-index.jpg) no-repeat center top;
-   
 }
 
 .clearfix::after {
@@ -20,92 +12,27 @@ body {
     clear: both;
 }
 
+.main-header {
+    margin-bottom: 60px;
+}
+
 .container {
     width: 940px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
-.main-header {
-    margin-bottom: 60px;
-    color: #ffffff;
-    background: #000000;    
-}
-
-
 .main-navigation {
     width: 780px;
+    height: 70px;
     margin-right: 20px;
     float: left;
 }
 
-.main-navigation ul {
-    margin: 0;
-    padding: 0;
-    
-    list-style: none;
-    font-size: 0;
-}
-
-.main-navigation li {
-    display: inline-block;
-    
-    font-size: 16px;
-    line-height: 20px;
-    vertical-align: top;
-}
-
-.main-navigation a {
-    display: block;
-    padding: 25px 20px;
-    
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.main-navigation a:hover {
-    background: #242424;
-}
-
 .user-block {
-    float: left;
-    max-width: 140px;
-}
-
-.login {
-    position: relative;
-    
-    display: inline-block;
-    padding: 25px 20px;
-    padding-left: 50px;
-    
-    font-size: 16px;
-    line-height: 20px;
-    vertical-align: top;
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.login:hover {
-    background: #242424;
-}
-
-.login::before {
-    content: "";
-    
-    position: absolute;
-    top: 28px;
-    left: 20px;
-    width: 18px;
-    height: 18px;
-    
-    background: url("../img/sprite2.png") no-repeat;
-    background-position: -5px -94px;
-    opacity: 0.3;
-}
-
-.login:hover::before {
-    opacity: 1;
+    width: 140px;
+    height: 70px;
+    float: right;
 }
 
 .index-logo {
@@ -113,11 +40,6 @@ body {
     height: 204px;
     margin: 0 auto;
     margin-bottom: 25px;
-}
-
-.index-logo img {
-    width: 368px;
-    height: 204px;
 }
 
 .features {
@@ -128,54 +50,14 @@ body {
     float: left;
     width: 300px;
     margin-right: 20px;
-    
-    text-align: center;
 }
 
 .features-item:last-child {
     margin-right: 0;
 }
 
-.features-name {
-    position: relative;
-    
-    display: block;
-    margin-bottom: 30px;
-    padding-bottom: 35px;
-    
-    font-size: 30px;
-    line-height: 42px;    
-}
-
-.features-name::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    margin-left: -10px;
-    
-    display: block;
-    width: 20px;
-    height: 20px;
-    
-    background: #ffffff;
-    transform: rotate(45deg);
-}
-
-.features-item p {
-    margin: 10px;
-    margin-bottom: 0;
-}
-
 .index-content {
-    margin-bottom: 35px;
     padding: 50px 80px;
-    
-    color: #000000;
-    
-    background: 
-        url("../img/bg_index-content.png") no-repeat center,
-        #f8f5f2 url("../img/bg_content-box.png");
 }
 
 .index-content-left {
@@ -183,40 +65,6 @@ body {
     width: 380px;
 
     min-height: 330px;
-}
-
-.index-content-title {
-    margin: 0;
-    margin-bottom: 25px;
-    
-    font-size: 30px;
-    line-height: 42px;
-    
-}
-
-.index-content p {
-    margin: 0;
-    margin-bottom: 25px;    
-}
-
-.news-preview {
-    margin: 0;
-    padding: 0;
-    padding-right: 35px;
-    
-    list-style: none;
-}
-
-.news-preview li {
-    margin-bottom: 25px;
-}
-
-.news-preview p {
-    margin-bottom: 0;
-}
-
-.news-preview time {
-    text-transform: none;
 }
 
 .index-content-right {
@@ -263,6 +111,13 @@ body {
     width: 160px;            /*must be by 166px - width of pictures, but dosn't fit*/
 }
 
+
+ul {                        /*added in order to fit pictures*/
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .item-content-right {
     float: right;
     width: 400px;
@@ -300,19 +155,20 @@ figure {                    /*added in order for the main picture take own place
 .goods {
     float: right;
     width: 720px;
-   
 }
 
-.goods-list li {    
+.goods-list li {
     float: left;
-    padding: 10px;
-    background: url(../img/shop_frame-item.png) no-repeat -3px -3px;
     width: 220px;
-    height: 285px;
+    height: 312px;
+    background: #999999 url("") no-repeat 0 0;
     
 }
+<<<<<<< HEAD
 
 
 a {
     
 }
+=======
+>>>>>>> parent of b3da804... 18.09.2018
