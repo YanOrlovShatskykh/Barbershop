@@ -60,9 +60,15 @@ body {          /*in order to be able to put bg to another pages*/
     vertical-align: top;
 }
 
-.main-navigation .header-logo {
+.main-navigation li.header-logo {
     width: 151px;
     height: 70px;
+}
+
+.main-navigation li.header-logo:hover { /*for bg lofo in header*/
+    background: #242424;
+    
+    transition: background 0.3s;
 }
 
 .active::after {
@@ -85,16 +91,9 @@ body {          /*in order to be able to put bg to another pages*/
     text-decoration: none;    
 }
 
-.header-logo a {
-    width: 151px;
-    height: 70px;
-    padding: 0;
-}
-
 .header-logo img  {
     position: absolute;
-    top: 23px;
-    left: 20px;
+    
     width: 111px;
     height: 24px;  
 }
@@ -661,6 +660,10 @@ body {          /*in order to be able to put bg to another pages*/
     transform: rotate(45deg);
 }
 
+.item_page .main-footer {
+    margin-top: 30px;    
+}
+
 .item-content-left {
     float: left;
     width: 470px;
@@ -669,10 +672,6 @@ body {          /*in order to be able to put bg to another pages*/
 .item-content-right {
     float: right;
     width: 400px;
-}
-
-.item_page .main-footer {
-    margin-top: 30px;    
 }
 
 
@@ -944,7 +943,8 @@ fieldset {
 
 .goods {
     float: right;
-    width: 720px;    
+    width: 720px;
+    margin-bottom: 30px;    
 }
 
 .goods-list {
@@ -1053,8 +1053,4 @@ fieldset {
 
 .paginator .current:hover {
     background: #ffffff;
-}
-
-.shop_page .main-footer {
-    margin-top: 50px;
 }

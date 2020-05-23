@@ -3,25 +3,27 @@
     <head>
         <meta charset="utf-8">
         <title>Барбершоп "Бородинский"</title>
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
+    <body class="price_page">
         <header class="main-header">
             <div class="container clearfix">
                 <nav class="main-navigation">
                     <ul>
-                        <li>
-                            <a href="#">
-                                <img src="img/item_logo_header.png">
-                            </a>
+                        <li class="header-logo">
+                           <a href="index.html">
+                               <img src="img/item_logo_header.png" width="111" height="24" alt="Главная">
+                           </a>
                         </li>
                         <li>
-                            <a href="#">Иформация</a>
+                            <a href="#">Информация</a>
                         </li>
                         <li>
                             <a href="#">Новости</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="price.html">Прайс-лист</a>
                         </li>
                         <li>
@@ -39,65 +41,58 @@
         </header>
         
         <main class="container clearfix">
-            <h1 class="title">Прайс-лист</h1>
+            <h1 class="page-title">Прайс-лист</h1>
             <ul class="breadcrumbs">
-                <li>
-                    <a href="index.html">
-                        Главная
-                    </a>
+               <li>
+                    <a href="index.html">Главная</a>
                 </li>
                 <li>
-                    <span>
-                        Прайс-лист
+                   <span>
+                       Прайс-лист
                     </span>
                 </li>
             </ul>
+            <div class="promo-name-line"></div>
             <b class="promo-name">
                 Истинно мужская классика
             </b>
+            <div class="promo-name-line2"></div>
             <div class="main-content-left">
-                <p>
+                <h2 class="promo-name2">
                     Мы используем только лучшие стредства.
-                </p>
-                <div class="item-names">
+                </h2>
+                <section class="include">
                     <ul>
                         <li>
-                            <p>
-                                Baxter of California
-                            </p>
+                            Baxter of California
                         </li>
                         <li>
-                            <p>    
-                                Mr Natty
-                            </p>
+                            Mr Natty
+                            </li>
+                        <li>
+                            Suavecito
                         </li>
                         <li>
-                            <p>
-                                Suavecito
-                            </p>
+                            Malin+Goetz
                         </li>
-                        <li>
-                            <p>
-                                Malin+Goetz
-                            </p>
-                        </li>
-                    </ul>
-                    
-                </div>
-                <div class="about us">
-                    <p>
+                    </ul>                    
+                </section>
+                <div class="about-us">
+                    <h2 class="promo-name2">
                         Несколько слов о нас:
-                    </p>
+                    </h2>
                     <p>
                         Наша парикмахерская занимается исключительно мужскими стрижками. Стрижка каждого клиента для нас - это уникальная и продуманная до мелочей работа. Мы не работаем на количество, мы делаем качество.
                     </p>
                 </div>
             </div>
             <div class="main-content-right">
-                <p>
-                    Цены на услуги наших мастеров:
-                </p>
                 <table class="price-list">
+                    <caption class="promo-name2">
+                    Цены на услуги
+                    <br>
+                    наших мастеров:
+                    </caption>
                     <tr>
                         <td>Стрижка</td>
                         <td>1500 р.</td>
@@ -113,14 +108,14 @@
                 </table>
                 <div class="promo">
                     <p>
-                        Наша мастреская расположена в цетре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
+                        Наша мастреская расположена в центре города, поэтому сделать стильную стрижку можно в любое время, даже в обеденный перерыв. Здесь вы можете погрузиться в удобную для вас атмосферу, чувствовать себя комфортно и свободно!
                     </p>
                 </div>
             </div>
         </main>
         
         <footer class="main-footer">
-            <div class="container">
+            <div class="container clearfix">
                 <section class="footer-contacts">
                     <p>
                         Барбершоп "Бородинский"<br>
